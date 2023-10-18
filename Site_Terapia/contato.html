@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Contato - Barbearia Salame</title>
+		<title>Contato - Terapia Todos Juntos</title>
 
 		<link rel="stylesheet" href="reset.css"> <!-- FAZ CHAMADA NOS ARQUIVOS DO CSS --->
 		<link rel="stylesheet" href="style.css"> <!-- FAZ CHAMADA NOS ARQUIVOS DO CSS --->
@@ -23,7 +23,7 @@
 		</header>
 
 		<main>
-			<form>
+			<form id="dados">
 				<label for="nomesobrenome">Nome e sobrenome</label> <!-- CRIA UM LABEL  --->
 				<input type="text" id="nomesobrenome" class="input-padrao" required> 
 
@@ -36,7 +36,7 @@
 				<label for="mensagem">Mensagem</label> <!-- CRIA UM LABEL  --->
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea> <!-- CRIA UM CAIXA COM UM EXEMPLO DENTRO  --->
 
-				<fieldset> <!-- AGRUPA ELEMENTOS --->
+				<fieldset id="type"> <!-- AGRUPA ELEMENTOS --->
 					<legend>Como prefere o nosso contato?</legend>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
 					
@@ -45,7 +45,7 @@
 					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
 				</fieldset> <!-- AGRUPA ELEMENTOS --->
 
-				<fieldset> <!-- AGRUPA ELEMENTOS --->
+				<fieldset id="type"> <!-- AGRUPA ELEMENTOS --->
 					<legend>Qual horário prefere ser atendido?</legend>
 					<select> <!-- representa um controle que apresenta um menu de opções --->
 						<option>Manhã</option> <!-- menu de opções --->
@@ -59,7 +59,7 @@
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 
-			<table> <!-- CRIA UMA TABELA --->
+			<table id="tabela"> <!-- CRIA UMA TABELA --->
 				<tr> <!-- cria uma linha na tabela --->
 					<td>Dia</td> <!-- cria coluna na tabela --->
 					<td>Horário</td> <!-- cria uma linha na tabela --->
@@ -88,8 +88,8 @@
 		</main>
 
 		<footer> <!--- MOSTRA NO RODAPE --->
-			<img src="imagens/logo-psicologia.png" alt="Logo da Barbearia Alura" width="100px" height="100px"> <!-- MOSTRA A IMAGEM DO LOGO  --->
-			<p class="copyright">&copy; Copyright Barbearia Salame - 2022</p> <!-- MOSTRA A MENSAGEM  --->
+			<img src="imagens/logo-psicologia.png" alt="Logo Todos Juntos" width="100px" height="100px"> <!-- MOSTRA A IMAGEM DO LOGO  --->
+			<p class="copyright">&copy; Copyright Terapia Todos Juntos - 2023</p> <!-- MOSTRA A MENSAGEM  --->
 		</footer>
 	</body>
 </html>
